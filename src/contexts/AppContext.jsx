@@ -62,7 +62,8 @@ export const AppProvider = ({ children }) => {
           phone: data.phone || '',
           email: data.email || '',
           instagram: data.instagram || '',
-          address: data.address || ''
+          address: data.address || '',
+          whatsapp: ''
         });
         console.log('✅ Site ayarları Supabase\'den yüklendi');
       } else {
