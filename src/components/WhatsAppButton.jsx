@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   // Admin panelden düzenlenebilir olması için settings'den alınabilir
-  const phoneNumber = '905551234567'; // +90 555 123 45 67
+  const phoneNumber = '905467808360'; // +90 546 780 83 60
   const message = 'Merhaba, ürünleriniz hakkında bilgi almak istiyorum.';
 
   const handleClick = () => {
